@@ -1,0 +1,170 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+*,
+::after,
+::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+ol[class],
+ul[class] {
+  padding: 0
+}
+blockquote,
+body,
+dd,
+dl,
+figcaption,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol[class],
+p,
+ul[class] {
+  margin: 0
+}
+img {
+  max-width: 100%;
+  display: block
+}
+button,
+input,
+select,
+textarea {
+  font: inherit
+}
+body {
+  min-height: 100vh;
+  font-family: Poppins,sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  background-image: url(../img/dest/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+a {
+  text-decoration: none
+}
+h3 {
+  margin-top: 18px;
+  text-align: center;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 72px;
+  color: #fff
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px
+}
+.title {
+  margin-top: 125px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 96px
+}
+.date {
+  margin-top: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: "Digital Numbers",sans-serif
+}
+.date div {
+  width: 20%;
+  height: 160px;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(-95%,#fff),to(transparent));
+  background: -o-linear-gradient(top,#fff -95%,transparent 100%);
+  background: linear-gradient(to bottom,#fff -95%,transparent 100%);
+  border: 0 solid #fff;
+  border-radius: 15px
+}
+.date div p {
+  margin-top: 18px;
+  font-family: "Digital Numbers";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 124px;
+  text-align: center;
+  letter-spacing: .215em;
+  color: #fff
+}
+.enter-date {
+  margin-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+.subtitle {
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center
+}
+.enter-date__input {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.enter-date__input input {
+  width: 90%;
+  padding: 10px;
+  height: 81px;
+  font-size: 30px;
+  background: #fff;
+  border-radius: 10px;
+  border: none
+}
+@media screen and (max-width:576px) {
+  h3 {
+    font-size: 15px
+  }
+  .date div {
+    height: 100px
+  }
+  .title {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 35px
+  }
+  .date div p {
+    font-size: 30px;
+    line-height: 60px
+  }
+  .enter-date {
+    margin-top: 80px
+  }
+}

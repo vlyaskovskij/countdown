@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>COUNTDOW</title>
+
+    <link
+      href="http://fonts.cdnfonts.com/css/digital-numbers"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">COUNTDOW TO YOUR DATE</h1>
+
+      <div class="date">
+        <div class="day">
+          <p class="timer__days"></p>
+          <h3>DAYS</h3>
+        </div>
+
+        <div class="hours">
+          <p class="timer__hours"></p>
+          <h3>HOURS</h3>
+        </div>
+
+        <div class="minutes">
+          <p class="timer__minutes"></p>
+          <h3>MINUTES</h3>
+        </div>
+
+        <div class="seconds">
+          <p class="timer__seconds"></p>
+          <h3>SECONDS</h3>
+        </div>
+      </div>
+
+      <div class="enter-date">
+        <h2 class="subtitle">Enter your date</h2>
+
+        <div class="enter-date__input">
+          <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            min="2022-10-18"
+            placeholder="Date"
+            onchange="formatDate();"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
